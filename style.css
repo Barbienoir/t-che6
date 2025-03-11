@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red;   */
+    /* outline: 1px solid red;/   */
 }
 body{
     overflow-x: hidden;
@@ -227,8 +227,6 @@ button{
         display:flex;
         flex-direction: column;
     }
-
-
 .navdeux{
 display: flex;
 flex-direction: column;
@@ -263,8 +261,8 @@ flex-direction: column;
     border: 1px solid red;
 }
 .navun{
-    display: none;
-
+    
+    display: flex;
 }
 .logo{
     display: none;
